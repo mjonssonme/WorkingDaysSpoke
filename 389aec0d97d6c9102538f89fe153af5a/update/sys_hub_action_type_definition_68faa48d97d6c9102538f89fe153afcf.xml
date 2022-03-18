@@ -1,0 +1,2839 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch4-hotfix1b-01-19-2022_02-08-2022_1831.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>get_working_days</internal_name>
+        <label_cache>[{"name":"{{action.start_date}}","label":"action➛Start Date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date","uiUniqueId":"5aadd345-4c2b-4c9e-a05e-e2561ec53261"}},{"name":"{{action.end_date}}","label":"action➛End Date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date","uiUniqueId":"078287a6-fc96-4cc2-a8d1-a582087439f1"}},{"name":"{{step[83f5fa63-6bc5-4603-80f3-ca6981c02a5a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[83f5fa63-6bc5-4603-80f3-ca6981c02a5a].days_between}}","label":"step➛Script step➛Days Between","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[86dc7a06-30d4-4424-8af5-92f1eaa16c94].root.result.working_days}}","label":"step➛JSON Parser step➛root➛result➛working_days","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].u_x-rapidapi-host}}","label":"step➛REST step➛X-RapidAPI-Host","type":"step","ref":"","reference_display":"","base_type":"string_full_utf8","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}}]</label_cache>
+        <master_snapshot>5ecde881971ac9102538f89fe153afe6</master_snapshot>
+        <name>Get Working Days</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:45:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68faa48d97d6c9102538f89fe153afcf</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Get Working Days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_68faa48d97d6c9102538f89fe153afcf</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=68faa48d97d6c9102538f89fe153afcf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=68faa48d97d6c9102538f89fe153afcf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>68faa48d97d6c9102538f89fe153afcf</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>8ecde881971ac9102538f89fe153afab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD0acde8818f1ac910c8140cd738b1ce93":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0acde8818f1ac910c8140cd738b1ce93.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"31078f45-1a7c-4d2b-ae3c-bcc27f93e2e3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0acde8818f1ac910c8140cd738b1ce93\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">4acde881971ac9102538f89fe153af97</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>68faa48d97d6c9102538f89fe153afcf</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>cacde881971ac9102538f89fe153afab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c6cde881971ac9102538f89fe153af9e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=68faa48d97d6c9102538f89fe153afcf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>working_days</field>
+        <id>68faa48d97d6c9102538f89fe153afcf</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>9e2d6c41971ac9102538f89fe153af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</table>
+        <value>{{step[86dc7a06-30d4-4424-8af5-92f1eaa16c94].root.result.working_days}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>68faa48d97d6c9102538f89fe153afcf</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>4acde881971ac9102538f89fe153afab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>68faa48d97d6c9102538f89fe153afcf</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>86cde881971ac9102538f89fe153afab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=68faa48d97d6c9102538f89fe153afcf^sys_idNOT INc62d6c41971ac9102538f89fe153af3d,ce2d6c41971ac9102538f89fe153af15"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</action>
+        <cid>86dc7a06-30d4-4424-8af5-92f1eaa16c94</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>c62d6c41971ac9102538f89fe153af3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c62d6c41971ac9102538f89fe153af3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c62d6c41971ac9102538f89fe153af3d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>4e2d6c41971ac9102538f89fe153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <value>{
+
+  "result": {
+	  
+  
+    "days": {
+      "total": "15",
+      "mondays": "2",
+      "tuesdays": "3",
+      "wednesdays": "2",
+      "thursdays": "2",
+      "fridays": "2",
+      "saturdays": "2",
+      "sundays": "2",
+      "hours": "359.98333333333"
+    },
+
+    "working_days": {
+      "total": "11",
+      "mondays": "2",
+      "tuesdays": "3",
+      "wednesdays": "2",
+      "thursdays": "2",
+      "fridays": "2",
+      "saturdays": "0",
+      "sundays": "0",
+      "work_hours": "88",
+      "wages": "1760"
+    },
+
+    "weekend_days": {
+      "total": "4",
+      "mondays": "0",
+      "tuesdays": "0",
+      "wednesdays": "0",
+      "thursdays": "0",
+      "fridays": "0",
+      "saturdays": "2",
+      "sundays": "2"
+
+    },
+
+    "public_holidays": { 
+
+    }
+   }
+ }	</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c62d6c41971ac9102538f89fe153af3d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>8a2d6c41971ac9102538f89fe153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"result","children":[{"name":"days","children":[{"name":"total","children":[],"type":"string","jpath":"$.result.days.total","previewValue":"15"},{"name":"mondays","children":[],"type":"string","jpath":"$.result.days.mondays","previewValue":"2"},{"name":"tuesdays","children":[],"type":"string","jpath":"$.result.days.tuesdays","previewValue":"3"},{"name":"wednesdays","children":[],"type":"string","jpath":"$.result.days.wednesdays","previewValue":"2"},{"name":"thursdays","children":[],"type":"string","jpath":"$.result.days.thursdays","previewValue":"2"},{"name":"fridays","children":[],"type":"string","jpath":"$.result.days.fridays","previewValue":"2"},{"name":"saturdays","children":[],"type":"string","jpath":"$.result.days.saturdays","previewValue":"2"},{"name":"sundays","children":[],"type":"string","jpath":"$.result.days.sundays","previewValue":"2"},{"name":"hours","children":[],"type":"string","jpath":"$.result.days.hours","previewValue":"359.98333333333"}],"type":"object","jpath":"$.result.days","previewValue":""},{"name":"working_days","children":[{"name":"total","children":[],"type":"string","jpath":"$.result.working_days.total","previewValue":"11"},{"name":"mondays","children":[],"type":"string","jpath":"$.result.working_days.mondays","previewValue":"2"},{"name":"tuesdays","children":[],"type":"string","jpath":"$.result.working_days.tuesdays","previewValue":"3"},{"name":"wednesdays","children":[],"type":"string","jpath":"$.result.working_days.wednesdays","previewValue":"2"},{"name":"thursdays","children":[],"type":"string","jpath":"$.result.working_days.thursdays","previewValue":"2"},{"name":"fridays","children":[],"type":"string","jpath":"$.result.working_days.fridays","previewValue":"2"},{"name":"saturdays","children":[],"type":"string","jpath":"$.result.working_days.saturdays","previewValue":"0"},{"name":"sundays","children":[],"type":"string","jpath":"$.result.working_days.sundays","previewValue":"0"},{"name":"work_hours","children":[],"type":"string","jpath":"$.result.working_days.work_hours","previewValue":"88"},{"name":"wages","children":[],"type":"string","jpath":"$.result.working_days.wages","previewValue":"1760"}],"type":"object","jpath":"$.result.working_days","previewValue":""},{"name":"weekend_days","children":[{"name":"total","children":[],"type":"string","jpath":"$.result.weekend_days.total","previewValue":"4"},{"name":"mondays","children":[],"type":"string","jpath":"$.result.weekend_days.mondays","previewValue":"0"},{"name":"tuesdays","children":[],"type":"string","jpath":"$.result.weekend_days.tuesdays","previewValue":"0"},{"name":"wednesdays","children":[],"type":"string","jpath":"$.result.weekend_days.wednesdays","previewValue":"0"},{"name":"thursdays","children":[],"type":"string","jpath":"$.result.weekend_days.thursdays","previewValue":"0"},{"name":"fridays","children":[],"type":"string","jpath":"$.result.weekend_days.fridays","previewValue":"0"},{"name":"saturdays","children":[],"type":"string","jpath":"$.result.weekend_days.saturdays","previewValue":"2"},{"name":"sundays","children":[],"type":"string","jpath":"$.result.weekend_days.sundays","previewValue":"2"}],"type":"object","jpath":"$.result.weekend_days","previewValue":""},{"name":"public_holidays","children":[],"type":"object","jpath":"$.result.public_holidays","previewValue":""}],"type":"object","jpath":"$.result","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c62d6c41971ac9102538f89fe153af3d^id=c62d6c41971ac9102538f89fe153af3d"/>
+    <sys_element_mapping action="delete_multiple" query="id=c62d6c41971ac9102538f89fe153af3d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>c62d6c41971ac9102538f89fe153af3d</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>0a2d6c41971ac9102538f89fe153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>c62d6c41971ac9102538f89fe153af3d</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>822d6c41971ac9102538f89fe153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>c62d6c41971ac9102538f89fe153af3d</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>462d6c41971ac9102538f89fe153af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c62d6c41971ac9102538f89fe153af3d^sys_idNOT INc22d6c41971ac9102538f89fe153af45"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD062d6c41421ac910bc1944881ab8c741,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c97cbd65-cb8a-4eda-9920-baa4fd142771</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">c62d6c41971ac9102538f89fe153af3d</model>
+        <model_id>c62d6c41971ac9102538f89fe153af3d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c62d6c41971ac9102538f89fe153af3d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>c22d6c41971ac9102538f89fe153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c62d6c41971ac9102538f89fe153af3d^sys_idNOT IN8e2d6c41971ac9102538f89fe153af4a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_c62d6c41971ac9102538f89fe153af3d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>8e2d6c41971ac9102538f89fe153af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</action>
+        <cid>07d3628b-b536-4b2f-a71e-9cc162bc5390</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>ce2d6c41971ac9102538f89fe153af15</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce2d6c41971ac9102538f89fe153af15"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>022d6c41971ac9102538f89fe153af39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>0e2d6c41971ac9102538f89fe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>111802f5975e8d10a47ab68fe153af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>191802f5975e8d10a47ab68fe153af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <value>1947ca75975e8d10a47ab68fe153afbf</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>4a2d6c41971ac9102538f89fe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <value>https://working-days.p.rapidapi.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>4e2d6c41971ac9102538f89fe153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <value>analyse</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>822d6c41971ac9102538f89fe153af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>862d6c41971ac9102538f89fe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>8a2d6c41971ac9102538f89fe153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>c22d6c41971ac9102538f89fe153af39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ce2d6c41971ac9102538f89fe153af15</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>ce2d6c41971ac9102538f89fe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ce2d6c41971ac9102538f89fe153af15^id=ce2d6c41971ac9102538f89fe153af15"/>
+    <sys_element_mapping action="delete_multiple" query="id=ce2d6c41971ac9102538f89fe153af15"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>822d6c41971ac9102538f89fe153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>ce2d6c41971ac9102538f89fe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>0e2d6c41971ac9102538f89fe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>862d6c41971ac9102538f89fe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>d11802f5975e8d10a47ab68fe153af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>0a2d6c41971ac9102538f89fe153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>4a2d6c41971ac9102538f89fe153af37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"x-rapidapi-host","value":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].u_x-rapidapi-host}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"x-rapidapi-key","value":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>022d6c41971ac9102538f89fe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>462d6c41971ac9102538f89fe153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"country_code","value":"SE","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"start_date","value":"{{action.start_date}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"end_date","value":"{{action.end_date}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>c22d6c41971ac9102538f89fe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>ce2d6c41971ac9102538f89fe153af15</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>1d1802f5975e8d10a47ab68fe153af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ce2d6c41971ac9102538f89fe153af15^sys_idNOT IN591802f5975e8d10a47ab68fe153af7c,591802f5975e8d10a47ab68fe153af84"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=f1f739fd-5c9d-4ca4-a580-371fd48a4f17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">ce2d6c41971ac9102538f89fe153af15</model>
+        <model_id>ce2d6c41971ac9102538f89fe153af15</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ce2d6c41971ac9102538f89fe153af15</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>591802f5975e8d10a47ab68fe153af7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8),uiUniqueId=ecd894fb-36fd-468e-83e8-7468c4078763</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_x-rapidapi-host</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>X-RapidAPI-Host</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">ce2d6c41971ac9102538f89fe153af15</model>
+        <model_id>ce2d6c41971ac9102538f89fe153af15</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ce2d6c41971ac9102538f89fe153af15</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>591802f5975e8d10a47ab68fe153af84</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ce2d6c41971ac9102538f89fe153af15^sys_idNOT IN911802f5975e8d10a47ab68fe153af83,d91802f5975e8d10a47ab68fe153af89"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ce2d6c41971ac9102538f89fe153af15</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>911802f5975e8d10a47ab68fe153af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>u_x-rapidapi-host</element>
+        <help/>
+        <hint/>
+        <label>X-RapidAPI-Host</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ce2d6c41971ac9102538f89fe153af15</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:28:16</sys_created_on>
+        <sys_id>d91802f5975e8d10a47ab68fe153af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:28:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=68faa48d97d6c9102538f89fe153afcf^sys_idNOT INca2d2c41971ac9102538f89fe153aff1,ca2d6c41971ac9102538f89fe153af09"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date,uiTypeLabel=Date,uiUniqueId=5aadd345-4c2b-4c9e-a05e-e2561ec53261</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>start_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date</internal_type>
+        <label>Start Date</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</model>
+        <model_id>68faa48d97d6c9102538f89fe153afcf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_68faa48d97d6c9102538f89fe153afcf</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>ca2d2c41971ac9102538f89fe153aff1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 22:00:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date,uiTypeLabel=Date,uiUniqueId=078287a6-fc96-4cc2-a8d1-a582087439f1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>end_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date</internal_type>
+        <label>End Date</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</model>
+        <model_id>68faa48d97d6c9102538f89fe153afcf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_68faa48d97d6c9102538f89fe153afcf</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>ca2d6c41971ac9102538f89fe153af09</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 22:00:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=68faa48d97d6c9102538f89fe153afcf^sys_idNOT IN4a2d6c41971ac9102538f89fe153af53,4acde881971ac9102538f89fe153af97,c6cde881971ac9102538f89fe153af9e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD822d6c410f1ac9106a5af661b2686051,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=86dc7a06-30d4-4424-8af5-92f1eaa16c94,sourceType=step,sourceUiUniqueId=92eeda78-364a-47d5-9da2-a0a0487d2b8e,uiType=object,uiTypeLabel=Object,uiUniqueId=8c8a665c-bebe-4b94-aabb-44b99b8502bd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>working_days</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Working Days</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</model>
+        <model_id>68faa48d97d6c9102538f89fe153afcf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>4a2d6c41971ac9102538f89fe153af53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD0acde8818f1ac910c8140cd738b1ce93,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=31078f45-1a7c-4d2b-ae3c-bcc27f93e2e3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</model>
+        <model_id>68faa48d97d6c9102538f89fe153afcf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>4acde881971ac9102538f89fe153af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=72aa2705-c0ca-42a2-ab9e-1cf52d4a3dbc,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</model>
+        <model_id>68faa48d97d6c9102538f89fe153afcf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>c6cde881971ac9102538f89fe153af9e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=68faa48d97d6c9102538f89fe153afcf^sys_idNOT IN962d6c41971ac9102538f89fe153af5e"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</action_type_id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>962d6c41971ac9102538f89fe153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_68faa48d97d6c9102538f89fe153afcf^sys_idNOT IN422d6c41971ac9102538f89fe153af13,462d6c41971ac9102538f89fe153af08"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>end_date</element>
+        <help/>
+        <hint/>
+        <label>End Date</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_68faa48d97d6c9102538f89fe153afcf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>422d6c41971ac9102538f89fe153af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>start_date</element>
+        <help/>
+        <hint/>
+        <label>Start Date</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_68faa48d97d6c9102538f89fe153afcf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:33</sys_created_on>
+        <sys_id>462d6c41971ac9102538f89fe153af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf^sys_idNOT IN06cde881971ac9102538f89fe153afa8,42cde881971ac9102538f89fe153af9d,8e2d6c41971ac9102538f89fe153af59"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>06cde881971ac9102538f89fe153afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:17</sys_created_on>
+        <sys_id>42cde881971ac9102538f89fe153af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>working_days</element>
+        <help/>
+        <hint/>
+        <label>Working Days</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_68faa48d97d6c9102538f89fe153afcf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:55:34</sys_created_on>
+        <sys_id>8e2d6c41971ac9102538f89fe153af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:55:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=68faa48d97d6c9102538f89fe153afcf^sys_idNOT IN3acd2c81971ac9102538f89fe153aff9"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3acd2c81971ac9102538f89fe153aff9","name":"plan","plan_signature":null}}</plan>
+        <snapshot>3dd80639975e8d10a47ab68fe153af18</snapshot>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3acd2c81971ac9102538f89fe153aff9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:36</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_working_days</internal_name>
+        <label_cache>[{"name":"{{action.start_date}}","label":"action➛Start Date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date","uiUniqueId":"5aadd345-4c2b-4c9e-a05e-e2561ec53261"}},{"name":"{{action.end_date}}","label":"action➛End Date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date","uiUniqueId":"078287a6-fc96-4cc2-a8d1-a582087439f1"}},{"name":"{{step[83f5fa63-6bc5-4603-80f3-ca6981c02a5a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[83f5fa63-6bc5-4603-80f3-ca6981c02a5a].days_between}}","label":"step➛Script step➛Days Between","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[86dc7a06-30d4-4424-8af5-92f1eaa16c94].root.result.working_days}}","label":"step➛JSON Parser step➛root➛result➛working_days","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].u_x-rapidapi-host}}","label":"step➛REST step➛X-RapidAPI-Host","type":"step","ref":"","reference_display":"","base_type":"string_full_utf8","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Get Working Days</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Working Days">68faa48d97d6c9102538f89fe153afcf</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ecde881971ac9102538f89fe153afe6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ecde881971ac9102538f89fe153afe6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5ecde881971ac9102538f89fe153afe6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>5ecde881971ac9102538f89fe153afe6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:19</sys_created_on>
+        <sys_id>12cd2c81971ac9102538f89fe153af52</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD9acd2c81e71ac9109fe35619389d1033":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD9acd2c81e71ac9109fe35619389d1033.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"31078f45-1a7c-4d2b-ae3c-bcc27f93e2e3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9acd2c81e71ac9109fe35619389d1033\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">5acd2c81971ac9102538f89fe153af3d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>5ecde881971ac9102538f89fe153afe6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:19</sys_created_on>
+        <sys_id>5ecd2c81971ac9102538f89fe153af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:19</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">d6cd2c81971ac9102538f89fe153af44</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5ecde881971ac9102538f89fe153afe6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>working_days</field>
+        <id>5ecde881971ac9102538f89fe153afe6</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:19</sys_created_on>
+        <sys_id>56cd2c81971ac9102538f89fe153af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</table>
+        <value>{{step[86dc7a06-30d4-4424-8af5-92f1eaa16c94].root.result.working_days}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>5ecde881971ac9102538f89fe153afe6</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:19</sys_created_on>
+        <sys_id>dacd2c81971ac9102538f89fe153af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>5ecde881971ac9102538f89fe153afe6</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:19</sys_created_on>
+        <sys_id>1acd2c81971ac9102538f89fe153af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=5ecde881971ac9102538f89fe153afe6^sys_idNOT IN16cd2c81971ac9102538f89fe153af21,9acd2c81971ac9102538f89fe153af0e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</action>
+        <cid>86dc7a06-30d4-4424-8af5-92f1eaa16c94</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>16cd2c81971ac9102538f89fe153af21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16cd2c81971ac9102538f89fe153af21"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>16cd2c81971ac9102538f89fe153af21</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>12cd2c81971ac9102538f89fe153af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"result","children":[{"name":"days","children":[{"name":"total","children":[],"type":"string","jpath":"$.result.days.total","previewValue":"15"},{"name":"mondays","children":[],"type":"string","jpath":"$.result.days.mondays","previewValue":"2"},{"name":"tuesdays","children":[],"type":"string","jpath":"$.result.days.tuesdays","previewValue":"3"},{"name":"wednesdays","children":[],"type":"string","jpath":"$.result.days.wednesdays","previewValue":"2"},{"name":"thursdays","children":[],"type":"string","jpath":"$.result.days.thursdays","previewValue":"2"},{"name":"fridays","children":[],"type":"string","jpath":"$.result.days.fridays","previewValue":"2"},{"name":"saturdays","children":[],"type":"string","jpath":"$.result.days.saturdays","previewValue":"2"},{"name":"sundays","children":[],"type":"string","jpath":"$.result.days.sundays","previewValue":"2"},{"name":"hours","children":[],"type":"string","jpath":"$.result.days.hours","previewValue":"359.98333333333"}],"type":"object","jpath":"$.result.days","previewValue":""},{"name":"working_days","children":[{"name":"total","children":[],"type":"string","jpath":"$.result.working_days.total","previewValue":"11"},{"name":"mondays","children":[],"type":"string","jpath":"$.result.working_days.mondays","previewValue":"2"},{"name":"tuesdays","children":[],"type":"string","jpath":"$.result.working_days.tuesdays","previewValue":"3"},{"name":"wednesdays","children":[],"type":"string","jpath":"$.result.working_days.wednesdays","previewValue":"2"},{"name":"thursdays","children":[],"type":"string","jpath":"$.result.working_days.thursdays","previewValue":"2"},{"name":"fridays","children":[],"type":"string","jpath":"$.result.working_days.fridays","previewValue":"2"},{"name":"saturdays","children":[],"type":"string","jpath":"$.result.working_days.saturdays","previewValue":"0"},{"name":"sundays","children":[],"type":"string","jpath":"$.result.working_days.sundays","previewValue":"0"},{"name":"work_hours","children":[],"type":"string","jpath":"$.result.working_days.work_hours","previewValue":"88"},{"name":"wages","children":[],"type":"string","jpath":"$.result.working_days.wages","previewValue":"1760"}],"type":"object","jpath":"$.result.working_days","previewValue":""},{"name":"weekend_days","children":[{"name":"total","children":[],"type":"string","jpath":"$.result.weekend_days.total","previewValue":"4"},{"name":"mondays","children":[],"type":"string","jpath":"$.result.weekend_days.mondays","previewValue":"0"},{"name":"tuesdays","children":[],"type":"string","jpath":"$.result.weekend_days.tuesdays","previewValue":"0"},{"name":"wednesdays","children":[],"type":"string","jpath":"$.result.weekend_days.wednesdays","previewValue":"0"},{"name":"thursdays","children":[],"type":"string","jpath":"$.result.weekend_days.thursdays","previewValue":"0"},{"name":"fridays","children":[],"type":"string","jpath":"$.result.weekend_days.fridays","previewValue":"0"},{"name":"saturdays","children":[],"type":"string","jpath":"$.result.weekend_days.saturdays","previewValue":"2"},{"name":"sundays","children":[],"type":"string","jpath":"$.result.weekend_days.sundays","previewValue":"2"}],"type":"object","jpath":"$.result.weekend_days","previewValue":""},{"name":"public_holidays","children":[],"type":"object","jpath":"$.result.public_holidays","previewValue":""}],"type":"object","jpath":"$.result","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>16cd2c81971ac9102538f89fe153af21</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>d2cd2c81971ac9102538f89fe153af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>{
+
+  "result": {
+	  
+  
+    "days": {
+      "total": "15",
+      "mondays": "2",
+      "tuesdays": "3",
+      "wednesdays": "2",
+      "thursdays": "2",
+      "fridays": "2",
+      "saturdays": "2",
+      "sundays": "2",
+      "hours": "359.98333333333"
+    },
+
+    "working_days": {
+      "total": "11",
+      "mondays": "2",
+      "tuesdays": "3",
+      "wednesdays": "2",
+      "thursdays": "2",
+      "fridays": "2",
+      "saturdays": "0",
+      "sundays": "0",
+      "work_hours": "88",
+      "wages": "1760"
+    },
+
+    "weekend_days": {
+      "total": "4",
+      "mondays": "0",
+      "tuesdays": "0",
+      "wednesdays": "0",
+      "thursdays": "0",
+      "fridays": "0",
+      "saturdays": "2",
+      "sundays": "2"
+
+    },
+
+    "public_holidays": { 
+
+    }
+   }
+ }	</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_16cd2c81971ac9102538f89fe153af21^id=16cd2c81971ac9102538f89fe153af21"/>
+    <sys_element_mapping action="delete_multiple" query="id=16cd2c81971ac9102538f89fe153af21"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>16cd2c81971ac9102538f89fe153af21</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>9ecd2c81971ac9102538f89fe153af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>16cd2c81971ac9102538f89fe153af21</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>1acd2c81971ac9102538f89fe153af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>16cd2c81971ac9102538f89fe153af21</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>dacd2c81971ac9102538f89fe153af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=16cd2c81971ac9102538f89fe153af21^sys_idNOT INd2cd2c81971ac9102538f89fe153af26"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD9ecd2c81751ac9101e1de8f9ec166323,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c97cbd65-cb8a-4eda-9920-baa4fd142771</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">16cd2c81971ac9102538f89fe153af21</model>
+        <model_id>16cd2c81971ac9102538f89fe153af21</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_16cd2c81971ac9102538f89fe153af21</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>d2cd2c81971ac9102538f89fe153af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_16cd2c81971ac9102538f89fe153af21^sys_idNOT IN9acd2c81971ac9102538f89fe153af2b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_16cd2c81971ac9102538f89fe153af21</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>9acd2c81971ac9102538f89fe153af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</action>
+        <cid>07d3628b-b536-4b2f-a71e-9cc162bc5390</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>9acd2c81971ac9102538f89fe153af0e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9acd2c81971ac9102538f89fe153af0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>12cd2c81971ac9102538f89fe153af1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>1ecd2c81971ac9102538f89fe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:35</sys_created_on>
+        <sys_id>3dd80639975e8d10a47ab68fe153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <value>1947ca75975e8d10a47ab68fe153afbf</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>5acd2c81971ac9102538f89fe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>5ecd2c81971ac9102538f89fe153af1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:35</sys_created_on>
+        <sys_id>79d80639975e8d10a47ab68fe153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>96cd2c81971ac9102538f89fe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>https://working-days.p.rapidapi.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>9acd2c81971ac9102538f89fe153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>analyse</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>d2cd2c81971ac9102538f89fe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>d6cd2c81971ac9102538f89fe153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9acd2c81971ac9102538f89fe153af0e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>decd2c81971ac9102538f89fe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9acd2c81971ac9102538f89fe153af0e^id=9acd2c81971ac9102538f89fe153af0e"/>
+    <sys_element_mapping action="delete_multiple" query="id=9acd2c81971ac9102538f89fe153af0e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>decd2c81971ac9102538f89fe153af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>1ecd2c81971ac9102538f89fe153af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>5acd2c81971ac9102538f89fe153af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>d2cd2c81971ac9102538f89fe153af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:35</sys_created_on>
+        <sys_id>b1d80639975e8d10a47ab68fe153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>56cd2c81971ac9102538f89fe153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>96cd2c81971ac9102538f89fe153af1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"x-rapidapi-host","value":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].u_x-rapidapi-host}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"x-rapidapi-key","value":"{{step[07d3628b-b536-4b2f-a71e-9cc162bc5390].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>5ecd2c81971ac9102538f89fe153af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>92cd2c81971ac9102538f89fe153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"country_code","value":"SE","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"start_date","value":"{{action.start_date}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"end_date","value":"{{action.end_date}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>12cd2c81971ac9102538f89fe153af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>9acd2c81971ac9102538f89fe153af0e</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:35</sys_created_on>
+        <sys_id>fdd80639975e8d10a47ab68fe153af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9acd2c81971ac9102538f89fe153af0e^sys_idNOT INb5d8c239975e8d10a47ab68fe153aff5,fdd8c239975e8d10a47ab68fe153afed"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string_full_utf8,uiTypeLabel=String (Full UTF-8),uiUniqueId=ecd894fb-36fd-468e-83e8-7468c4078763</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_x-rapidapi-host</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">string_full_utf8</internal_type>
+        <label>X-RapidAPI-Host</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">9acd2c81971ac9102538f89fe153af0e</model>
+        <model_id>9acd2c81971ac9102538f89fe153af0e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9acd2c81971ac9102538f89fe153af0e</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:34</sys_created_on>
+        <sys_id>b5d8c239975e8d10a47ab68fe153aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=f1f739fd-5c9d-4ca4-a580-371fd48a4f17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">9acd2c81971ac9102538f89fe153af0e</model>
+        <model_id>9acd2c81971ac9102538f89fe153af0e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9acd2c81971ac9102538f89fe153af0e</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:34</sys_created_on>
+        <sys_id>fdd8c239975e8d10a47ab68fe153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9acd2c81971ac9102538f89fe153af0e^sys_idNOT INb9d8c239975e8d10a47ab68fe153affa,fdd8c239975e8d10a47ab68fe153aff3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>u_x-rapidapi-host</element>
+        <help/>
+        <hint/>
+        <label>X-RapidAPI-Host</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_9acd2c81971ac9102538f89fe153af0e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:34</sys_created_on>
+        <sys_id>b9d8c239975e8d10a47ab68fe153affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_9acd2c81971ac9102538f89fe153af0e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:31:34</sys_created_on>
+        <sys_id>fdd8c239975e8d10a47ab68fe153aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:31:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=5ecde881971ac9102538f89fe153afe6^sys_idNOT IN56cde881971ac9102538f89fe153afea,decde881971ac9102538f89fe153aff5"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date,uiTypeLabel=Date,uiUniqueId=5aadd345-4c2b-4c9e-a05e-e2561ec53261</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>start_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date</internal_type>
+        <label>Start Date</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</model>
+        <model_id>5ecde881971ac9102538f89fe153afe6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_5ecde881971ac9102538f89fe153afe6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>56cde881971ac9102538f89fe153afea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 22:00:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date,uiTypeLabel=Date,uiUniqueId=078287a6-fc96-4cc2-a8d1-a582087439f1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>end_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date</internal_type>
+        <label>End Date</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</model>
+        <model_id>5ecde881971ac9102538f89fe153afe6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_5ecde881971ac9102538f89fe153afe6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>decde881971ac9102538f89fe153aff5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 22:00:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=5ecde881971ac9102538f89fe153afe6^sys_idNOT IN5acd2c81971ac9102538f89fe153af3d,9ecd2c81971ac9102538f89fe153af35,d6cd2c81971ac9102538f89fe153af44"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD9acd2c81e71ac9109fe35619389d1033,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=31078f45-1a7c-4d2b-ae3c-bcc27f93e2e3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</model>
+        <model_id>5ecde881971ac9102538f89fe153afe6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>5acd2c81971ac9102538f89fe153af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD96cd2c81e41ac9107e97a3991cc5a731,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=86dc7a06-30d4-4424-8af5-92f1eaa16c94,sourceType=step,sourceUiUniqueId=92eeda78-364a-47d5-9da2-a0a0487d2b8e,uiType=object,uiTypeLabel=Object,uiUniqueId=8c8a665c-bebe-4b94-aabb-44b99b8502bd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>working_days</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Working Days</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</model>
+        <model_id>5ecde881971ac9102538f89fe153afe6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>9ecd2c81971ac9102538f89fe153af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=72aa2705-c0ca-42a2-ab9e-1cf52d4a3dbc,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</model>
+        <model_id>5ecde881971ac9102538f89fe153afe6</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>d6cd2c81971ac9102538f89fe153af44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5ecde881971ac9102538f89fe153afe6^sys_idNOT IN1acd2c81971ac9102538f89fe153af60"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Working Days">5ecde881971ac9102538f89fe153afe6</action_type_id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:19</sys_created_on>
+        <sys_id>1acd2c81971ac9102538f89fe153af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:19</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5ecde881971ac9102538f89fe153afe6^sys_idNOT IN1ecd2c81971ac9102538f89fe153af0b,5acde881971ac9102538f89fe153aff4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>end_date</element>
+        <help/>
+        <hint/>
+        <label>End Date</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5ecde881971ac9102538f89fe153afe6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>1ecd2c81971ac9102538f89fe153af0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>start_date</element>
+        <help/>
+        <hint/>
+        <label>Start Date</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5ecde881971ac9102538f89fe153afe6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>5acde881971ac9102538f89fe153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6^sys_idNOT IN52cd2c81971ac9102538f89fe153af43,d2cd2c81971ac9102538f89fe153af3c,decd2c81971ac9102538f89fe153af4d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>52cd2c81971ac9102538f89fe153af43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>working_days</element>
+        <help/>
+        <hint/>
+        <label>Working Days</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:18</sys_created_on>
+        <sys_id>d2cd2c81971ac9102538f89fe153af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5ecde881971ac9102538f89fe153afe6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-15 21:58:19</sys_created_on>
+        <sys_id>decd2c81971ac9102538f89fe153af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-15 21:58:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>68faa48d97d6c9102538f89fe153afcf</sys_id>
+        <latest_snapshot>5ecde881971ac9102538f89fe153afe6</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

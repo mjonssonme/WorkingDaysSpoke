@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_snc_mjn_wds.Working_Days___Connection_and_Credential</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Working Days - Connection and Credential</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2022-03-18 12:24:57</sys_created_on>
+        <sys_id>1947ca75975e8d10a47ab68fe153afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_mjn_wds.Working_Days___Connection_and_Credential</sys_name>
+        <sys_package display_value="Working Days Spoke" source="x_snc_mjn_wds">389aec0d97d6c9102538f89fe153af5a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Working Days Spoke">389aec0d97d6c9102538f89fe153af5a</sys_scope>
+        <sys_update_name>sys_alias_1947ca75975e8d10a47ab68fe153afbf</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:24:57</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>
